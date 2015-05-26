@@ -1,0 +1,34 @@
+#photo-wall{ 
+	margin: 20px; 
+	padding: 0; 
+	list-style: none; 
+	overflow: hidden;
+	list-style-type: none;
+}
+
+#photo-wall li { 
+	float: left; 
+	width: 12.5vw;
+	height: 12.5vw;
+	overflow: hidden;
+	margin: 15px; 
+}
+
+#photo-wall li a img {
+	display: block;
+	min-height: 100%;
+	width: auto;
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-ms-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+}
+
+#photo-wall:hover img{ 
+	opacity: .5;  
+}
+
+#photo-wall li:hover img{ 
+	opacity: 1; 
+}
